@@ -1,6 +1,6 @@
 # See https://hub.docker.com/r/phusion/baseimage/tags/
 FROM phusion/baseimage:0.11
-ENV SEAFILE_SERVER=seafile-server SEAFILE_VERSION=
+ENV SEAFILE_SERVER=seafile-server SEAFILE_VERSION=7.1.5
 
 RUN apt-get update --fix-missing
 
